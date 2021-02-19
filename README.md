@@ -4,3 +4,5 @@
 # college
 # acsmedicalcollege
 # acsmedicalcollege
+# acsmedical
+# acsmedical
