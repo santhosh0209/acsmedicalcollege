@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html class="slb" lang="en-US">
+
+<head>
+    <title></title>
+    <style>
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        main,
+        menu,
+        nav,
+        section,
+        summary {
+            display: block;
+        }
+        
+        body {
+            margin: 0;
+        }
+        
+        html {
+            font-family: sans-serif;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        
+        a {
+            -webkit-transition: all 1s;
+            transition: all 1s;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a {
+            background-color: transparent;
+        }
+        
+        img {
+            border: 0;
+        }
+        
+        ::after,
+         ::before {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        
+        .slider .rightside-logo {
+            background: #fdc65e;
+            position: relative;
+            top: -432px;
+            z-index: 9999;
+            box-shadow: 0px 5px 5px #303030;
+            border-radius: 0px 0px 15px 15px;
+            padding: 10px;
+            float: right;
+            left: -33px;
+        }
+        
+        .slider {
+            padding: 0px !important;
+            margin-bottom: -50px !important;
+            clear: both;
+        }
+        /* @media only screen and (min-width:1224px) */
+        
+        .slider {
+            padding: 0;
+            margin-bottom: 0px;
+            clear: both;
+            float: left;
+        }
+        
+        .col-lg-1,
+        .col-lg-10,
+        .col-lg-11,
+        .col-lg-12,
+        .col-lg-2,
+        .col-lg-3,
+        .col-lg-4,
+        .col-lg-5,
+        .col-lg-6,
+        .col-lg-7,
+        .col-lg-8,
+        .col-lg-9,
+        .col-md-1,
+        .col-md-10,
+        .col-md-11,
+        .col-md-12,
+        .col-md-2,
+        .col-md-3,
+        .col-md-4,
+        .col-md-5,
+        .col-md-6,
+        .col-md-7,
+        .col-md-8,
+        .col-md-9,
+        .col-sm-1,
+        .col-sm-10,
+        .col-sm-11,
+        .col-sm-12,
+        .col-sm-2,
+        .col-sm-3,
+        .col-sm-4,
+        .col-sm-5,
+        .col-sm-6,
+        .col-sm-7,
+        .col-sm-8,
+        .col-sm-9,
+        .col-xs-1,
+        .col-xs-10,
+        .col-xs-11,
+        .col-xs-12,
+        .col-xs-2,
+        .col-xs-3,
+        .col-xs-4,
+        .col-xs-5,
+        .col-xs-6,
+        .col-xs-7,
+        .col-xs-8,
+        .col-xs-9 {
+            position: relative;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        
+        .col-xs-1,
+        .col-xs-10,
+        .col-xs-11,
+        .col-xs-12,
+        .col-xs-2,
+        .col-xs-3,
+        .col-xs-4,
+        .col-xs-5,
+        .col-xs-6,
+        .col-xs-7,
+        .col-xs-8,
+        .col-xs-9 {
+            float: left;
+        }
+        
+        .col-xs-12 {
+            width: 100%;
+        }
+        /* @media all and (min-width:768px) */
+        
+        .col-sm-1,
+        .col-sm-10,
+        .col-sm-11,
+        .col-sm-12,
+        .col-sm-2,
+        .col-sm-3,
+        .col-sm-4,
+        .col-sm-5,
+        .col-sm-6,
+        .col-sm-7,
+        .col-sm-8,
+        .col-sm-9 {
+            float: left;
+        }
+        /* @media all and (min-width:768px) */
+        
+        .col-sm-12 {
+            width: 100%;
+        }
+        /* @media all and (min-width:992px) */
+        
+        .col-md-1,
+        .col-md-10,
+        .col-md-11,
+        .col-md-12,
+        .col-md-2,
+        .col-md-3,
+        .col-md-4,
+        .col-md-5,
+        .col-md-6,
+        .col-md-7,
+        .col-md-8,
+        .col-md-9 {
+            float: left;
+        }
+        /* @media all and (min-width:992px) */
+        
+        .col-md-12 {
+            width: 100%;
+        }
+        /* @media all and (min-width:1200px) */
+        
+        .col-lg-1,
+        .col-lg-10,
+        .col-lg-11,
+        .col-lg-12,
+        .col-lg-2,
+        .col-lg-3,
+        .col-lg-4,
+        .col-lg-5,
+        .col-lg-6,
+        .col-lg-7,
+        .col-lg-8,
+        .col-lg-9 {
+            float: left;
+        }
+        /* @media all and (min-width:1200px) */
+        
+        .col-lg-12 {
+            width: 100%;
+        }
+        
+        .slider::before {
+            background: rgba(0, 0, 0, 0) linear-gradient(to top, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat scroll 0 0;
+            content: "";
+            height: 160px;
+            left: 0px;
+            position: absolute;
+            top: 0px;
+            width: 100%;
+            z-index: 99;
+        }
+        
+        body {
+            background: white;
+            font-family: "Roboto", sans-serif;
+            font-size: 13px;
+            color: #303030;
+        }
+        
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            line-height: 1.4285;
+            color: #333;
+            background-color: #fff;
+        }
+        
+        html {
+            font-size: 10px;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+        
+        a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+        
+        img {
+            vertical-align: middle;
+        }
+        
+        .slider .rightside-logo .nabh img,
+        .slider .rightside-logo .hlact img,
+        .slider .rightside-logo .iao img,
+        .slider .rightside-logo .iso img,
+        .slider .rightside-logo .nabl img {
+            width: 62px !important;
+        }
+        
+        .slider .rightside-logo .naac img {
+            width: 135px !important;
+        }
+    </style>
+</head>
+
+<body class="home page page-id-3851 page-template page-template-xhome page-template-xhome-php single-author">
+    <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slider">
+        <div class="rightside-logo">
+            <a title="NAAC A" class="naac" href="http://www.rrmch.org/accreditations/naac/"><img style="margin-right: 1px;" src="http://www.rrmch.org/cms/wp-content/themes/firststepmain/images/naac-a-new.png"></a>
+            <a title="NABH" class="nabh" href="http://www.rrmch.org/quality-initiatives/nabh/"><img style="margin-right: 1px;" src="http://www.rrmch.org/cms/wp-content/themes/firststepmain/images/nabh.png"></a>
+            <a title="HLACT" class="hlact" href="http://www.rrmch.org/accreditations/hlact/"><img style="margin-right: 1px;" src="http://www.rrmch.org/cms/wp-content/themes/firststepmain/images/hlac.png"></a>
+            <a title="IAO" class="iao" href="http://www.rrmch.org/iao/"><img style="margin-right: 1px;" src="http://www.rrmch.org/cms/wp-content/themes/firststepmain/images/iao.gif"></a>
+            <a title="ISO" class="iso" href="http://www.rrmch.org/quality-initiatives/iso/"><img style="margin-right: 1px;" src="http://www.rrmch.org/cms/wp-content/themes/firststepmain/images/iso-2015.png"></a>
+            <a title="NABL for Medical Testing" class="nabl" href="http://www.rrmch.org/accreditations/nabl-2/"><img style="margin-right: 1px;" src="http://www.rrmch.org/cms/wp-content/themes/firststepmain/images/nabl-2020.png"></a>
+        </div>
+    </section>
+</body>
+
+</html>

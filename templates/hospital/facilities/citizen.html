@@ -1,0 +1,559 @@
+{% extends "hospital/base.html" %} {% block content %}
+<style>
+    h5 {
+        font-size: 20px;
+        font-family: 'Eurostile', sans-serif;
+        font-weight: 600;
+        color: #000000;
+        letter-spacing: 0.005em;
+        margin-bottom: 15px;
+        position: relative;
+    }
+    
+    strong {
+        font-weight: 800;
+    }
+    
+    .firstol {
+        list-style-type: decimal;
+    }
+    
+    .firstol li {
+        margin-bottom: 12px;
+        margin-left: 60px;
+        line-height: 20px;
+    }
+    
+    .firstul {
+        list-style-type: disc;
+        margin-top: 5px;
+    }
+    
+    .firstul li {
+        margin-bottom: 12px;
+        margin-left: 60px;
+        line-height: 25px;
+    }
+    
+    .secondul {
+        list-style-type: circle;
+        margin-top: 5px;
+    }
+    
+    .secondul li {
+        margin-bottom: 12px;
+        margin-left: 60px;
+        line-height: 20px;
+    }
+</style>
+<div class="resource_inner">
+    <section class="hostl_facility">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 rigt_aln">
+                    <div class="hostel_rgt_img">
+                        <img src="/static/sample/hospital/facility/citizen.jpg" class="img-responsive">
+                    </div>
+                </div>
+                <div class="col-sm-6 lft_aln">
+                    <div>
+                        <span>
+                05           </span>
+                        <h1>Citizen Charter</h1>
+                        <h3 class="inner_sub_hd"> ACS MEDICAL COLLEGE & HOSPITAL</h3>
+                        <h5>Contents:</h5>
+                        <ol class="firstol">
+                            <li>Location and accessibility</li>
+                            <li>Standards of service </li>
+                            <li>General Information</li>
+                            <li>Enquiries, Emergency Services</li>
+                            <li>OPD, Super speciality Clinics</li>
+                            <li>Diagnostic Support services, Indoor Treatment</li>
+                            <li>Laboratory, Blood Banks</li>
+                            <li>Equipment and facilities </li>
+                            <li>Miscellaneous Services</li>
+                            <li>Responsibility of users, Grievances Redressal / complaints</li>
+                        </ol>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-lg-12 lft_aln">
+                    <p>ACS Medical college has 700 beds with facilities of different specialties.</p>
+                    <p style="margin-top: 10px; "><strong>Mission Statement:</strong></p>
+                    <p style="text-indent:4em;">
+                        To develop into an institute of medical excellence, imparting quality medical education to students and quality medical care to patients. To create doctors with knowledge, values and principles and to help them attain their highest functional ability.
+                        To spread health and to make the nation a healthier and happier place to live in.
+                    </p>
+                    <p style="margin-top: 10px;"><strong>Standard of services:</strong></p>
+                    <p style="text-indent:4em;">
+                        A.C.S. Medical College and Hospital provides medical care facilities to the community.
+                    </p>
+                    <p style="margin-top: 10px;">
+                        <strong style="font-size: 18px;">General Information:</strong><br />
+                        <strong>Location: </strong></p>
+                    <p style="text-indent:4em;">ACS Medical College and Hospital is located on Chennai Bangalore Highway, close to Koyambedu and porur.It is easily accessible by public transport. ACS medical College and Hospital runs 4 other centres which cater to the population
+                        in the nearby villages.</p>
+                    <table style="margin-top: 10px;">
+                        <tr>
+                            <td>Urban Health Training centre </td>
+                            <td>Adayalampattu</td>
+                        </tr>
+                        <tr>
+                            <td>Rural Health Training Centres</td>
+                            <td>Parivakkam, Nazarethpet, Nayapakkam</td>
+                        </tr>
+                    </table>
+                    <p><strong>Enquiry:</strong></p>
+                    <table style="margin-top:10px;">
+                        <tr>
+                            <td>Telephone numbers of central enquiry</td>
+                            <td> 044 26802133 / 1555</td>
+                        </tr>
+                        <tr>
+                            <td>Casualty Number : </td>
+                            <td> 044 26801010</td>
+                        </tr>
+                    </table>
+                    <p>
+                        <strong>Information about College and Hospital:</strong></p>
+                    <ul class="firstul">
+                        <li> Reception is located at the entrance of the hospital.
+                        </li>
+                        <li> Different sign boards, directional signs are fitted at the strategic points for guidance of the public.
+                        </li>
+                        <li> The list of faculty members of the college and hospital along with their telephone numbers are available on the website of the institution: www.acsmch.ac.in
+                        </li>
+                        <li> The duty roasters for the faculty members &#038; resident doctors are displayed on the notice boards of the respective departments.
+                        </li>
+                        <li> Doctors wear white aprons and nurses are in uniform. All faculty members wear identity cards.
+                        </li>
+                        <li> Enquiry&#038; Reception counter functions round the clock in the emergency of ACS Medical College Hospital. Whereas in other extension centres this counter works only during working hours between 9 a.m. to 4 p.m.
+                        </li>
+                        <li> The staff members from Medical Record Section provide patient related information and also prepare the medical record (OPD cards/Admission case sheets) and statistics related to the hospital products (Services).
+                        </li>
+
+                    </ul>
+
+                    <p><strong>Emergency/ casualty  services: </strong><br />
+                        <strong>Location</strong>: Ground Floor , right from entrance of Hospital.<br />
+                        <strong>Officers in Charge of Casualty: </strong></p>
+                    <p>(4 CMO with 3 shift as 8 am to 2 pm, 2 pm to 8 pm &#038; 8 pm to 8 am)</p>
+                    <ul class="firstul">
+                        <li> Accident, Trauma, Medical and Surgical Emergency cases will be attended round the clock on all days.
+                        </li>
+                        <li>Anyone with urgent medical problem can have consultation/treatment in the Casualty.</li>
+                        <li>Depending on the nature of the medical condition which needs medical intervention, the patient will be registered at the Casualty registration counter free of charge and medical care will be provided promptly.</li>
+                        <li>In addition to Casualty Medical Officers, Casualty has dedicated a team of doctors from Medicine, Surgery, Orthopaedics, Paediatrics, Obstetrics and Gynaecology, resident doctors, nursing staff, paramedics and orderlies to provide
+                            urgent medical services.</li>
+                        <li>All endeavours are made to provide better medical care including all possible investigations (available in the hospital) and prompt treatment. However, at times, when there is extreme workload, cases that are not so urgent may
+                            have to wait for some time.</li>
+                        <li>The treating doctors will call any specialist who is available on call for urgent consultation as and when required.</li>
+                        <li>Casualty has a fully equipped Emergency Room with modern gadgets like monitors, ventilators, nebulisers, defibrillators, central oxygen and suction supply, etc.</li>
+                        <li>All urgent investigations like Blood Biochemistry, Urine, Blood gas analysis, ECG, USG, X-ray are available for casualty patients round the clock.</li>
+                        <li>Facilities for CT Scan is also available in the hospital campus on payment basis.</li>
+                        <li>In serious cases, treatment gets priority over paper works like registration and medico legal requirement. The decision rests with the treating doctor.</li>
+                        <li>Emergency Room is maintained on a regular basis to ensure that it is usable at all times.</li>
+                        <li>Pay and use telephone is available at the entrance of the Casualty for patients and their attendants.</li>
+
+                    </ul>
+
+                    <p><strong>Outpatient Departments </strong></p>
+                    <p>OPD Registration Timings : 08:30 A.M. to 03:30 P.M.</p>
+                    <p>OPD registration card can be obtained free at OPD Registration counter located at the entrance of ACS Medical College and Hospital for consultation in general/speciality OPDs.</p>
+                    <ul class="firstul">
+                        <li>Referred cases from outreach centres and other hospitals should also get registered for consultation in the OPDs.</li>
+                        <li>The patient has the right to consult any doctor/consultant. For prior appointment with any consultant on his/her OPD days, the patient should contact his/her OPD.</li>
+                        <li>Patients are seen on first come first serve basis. However, out of turn consultation may be provided in case of emergency or to senior citizens.</li>
+                    </ul>
+                    <p><strong>Details of the OPD</strong><br/></p>
+                    <p><strong>Medicine</strong></p>
+                    <table style="margin-top:10px" width="628" border="1" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td valign="top" width="100">Monday</td>
+                                <td valign="top" width="100">Tuesday</td>
+                                <td valign="top" width="116">Wednesday</td>
+                                <td valign="top" width="101">Thursday</td>
+                                <td valign="top" width="97">Friday</td>
+                                <td valign="top" width="101">Saturday</td>
+                                <td valign="top" width="101">Sunday</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="100">Unit &#8211; I</td>
+                                <td valign="top" width="100">Unit &#8211; II</td>
+                                <td valign="top" width="116">Unit &#8211; III</td>
+                                <td valign="top" width="101">Unit &#8211; IV</td>
+                                <td valign="top" width="97">Unit &#8211; V</td>
+                                <td valign="top" width="101">On Rotation</td>
+                                <td valign="top" width="101">On Rotation</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><br/></p>
+                    <p><strong>Surgery</strong></p>
+                    <table style="margin-top:10px" width="631" border="1" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td valign="top" width="100">Monday</td>
+                                <td valign="top" width="100">Tuesday</td>
+                                <td valign="top" width="119">Wednesday</td>
+                                <td valign="top" width="101">Thursday</td>
+                                <td valign="top" width="96">Friday</td>
+                                <td valign="top" width="101">Saturday</td>
+                                <td valign="top" width="101">Sunday</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="100">Unit &#8211; I</td>
+                                <td valign="top" width="100">Unit &#8211; II</td>
+                                <td valign="top" width="119">Unit &#8211; III</td>
+                                <td valign="top" width="101">Unit &#8211; IV</td>
+                                <td valign="top" width="97">Unit &#8211; V</td>
+                                <td valign="top" width="101">On Rotation</td>
+                                <td valign="top" width="101">On Rotation</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><br/></p>
+                    <p><strong>Gynaecology and Obstetrics</strong></p>
+                    <table style="margin-top:10px" width="630" border="1" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td valign="top" width="100">Monday</td>
+                                <td valign="top" width="100">Tuesday</td>
+                                <td valign="top" width="116">Wednesday</td>
+                                <td valign="top" width="101">Thursday</td>
+                                <td valign="top" width="97">Friday</td>
+                                <td valign="top" width="101">Saturday</td>
+                                <td valign="top" width="101">Sunday</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="100">Unit &#8211; I</td>
+                                <td valign="top" width="100">Unit &#8211; II</td>
+                                <td valign="top" width="119">Unit &#8211; III</td>
+                                <td valign="top" width="101">On Rotation</td>
+                                <td valign="top" width="97">On Rotation</td>
+                                <td valign="top" width="101">On Rotation</td>
+                                <td valign="top" width="101">On Rotation</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><br/></p>
+                    <p><strong>Orthopaedics</strong></p>
+                    <table style="margin-top:10px" width="630" border="1" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td valign="top" width="100">Monday</td>
+                                <td valign="top" width="100">Tuesday</td>
+                                <td valign="top" width="116">Wednesday</td>
+                                <td valign="top" width="101">Thursday</td>
+                                <td valign="top" width="97">Friday</td>
+                                <td valign="top" width="101">Saturday</td>
+                                <td valign="top" width="101">Sunday</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="100">Unit &#8211; I</td>
+                                <td valign="top" width="100">Unit &#8211; II</td>
+                                <td valign="top" width="119">Unit &#8211; III</td>
+                                <td valign="top" width="101">On Rotation</td>
+                                <td valign="top" width="97">On Rotation</td>
+                                <td valign="top" width="101">On Rotation</td>
+                                <td valign="top" width="101">On Rotation</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><br/></p>
+                    <p><strong>Paediatrics</strong></p>
+                    <table style="margin-top:10px" width="630" border="1" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td valign="top" width="100">Monday</td>
+                                <td valign="top" width="100">Tuesday</td>
+                                <td valign="top" width="116">Wednesday</td>
+                                <td valign="top" width="101">Thursday</td>
+                                <td valign="top" width="97">Friday</td>
+                                <td valign="top" width="101">Saturday</td>
+                                <td valign="top" width="101">Sunday</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" width="100">Unit &#8211; I</td>
+                                <td valign="top" width="100">Unit &#8211; II</td>
+                                <td valign="top" width="119">Unit &#8211; III</td>
+                                <td valign="top" width="101">On Rotation</td>
+                                <td valign="top" width="97">On Rotation</td>
+                                <td valign="top" width="101">On Rotation</td>
+                                <td valign="top" width="101">On Rotation</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p><br/></p>
+                    <p><strong>Others Special Clinics</strong></p>
+                    <ul class="firstul">
+                        <li>Diabetes clinic</li>
+                        <li>Spine clinic</li>
+                        <li>Immunisation clinic</li>
+                        <li>Allergy and asthma clinic</li>
+                        <li>Vertigo and head ache clinic</li>
+                        <li>Plastic surgery</li>
+                        <li>Knee clinic</li>
+                        <li>DOTS clinic</li>
+                        <li>Drug addiction clinic</li>
+                        <li>Suicide prevention clinic</li>
+                    </ul>
+                    <p><strong> Details of other Diagnostic &amp; Support Services in the Associated Hospitals</strong><br/></p>
+                    <ul class="firstul">
+                        <li> Pathology, Biochemistry, Microbiology, Transfusion Medicine, Forensic medicine, Hospital stores, CSSD, Laundry, Dietary Services, Medical Record Department, Engineering section, ,AC Plant, sets etc., Maintenance cell,
+                        </li>
+                        <li> Many facilities are provided at OPD level, such as ECG, Plaster, Injection and immunization, contraception and MTP services, minor surgical intervention, physiotherapy, bronchoscopy, endoscopy, etc.
+                        </li>
+                        <li> The decision to admit a patient rests with the treating consultant. The patient will be admitted if there is a vacant bed available in the particular speciality. But in case of emergency, out of turn admission may be done.
+                        </li>
+                        <li>
+                            Patients requiring medical certificates should apply for the same to the Superintendent, ACS Medical College and Hospital, , who will send it to the concerned department for issuing the certificate. However, Medical Treatment/Fitness and other such certificates
+                            of admitted patients, issued by the consultant will be valid only if it is countersigned by the Superintendent in Chief of the Hospital.</li>
+                    </ul>
+
+                    <p>
+                        <strong>In patient Treatment</strong></p>
+                    <ul class="firstul">
+                        <li>
+                            Special wards like ICU, MICU, PICU/NICU, Surgical Intensive Care Unit are provided with modern gadgets and devices like ventilators, monitors, defibrillators, nebulisers, incubators etc. to provide better quality medical care.
+                        </li>
+                        <li>
+                            All patients admitted in General Wards of the Hospital are treated free of cost.Free diet is provided to all patients in the General Wards.Staff nurses are on duty round the clock in the wards.Admitted patients should contact the staff nurse for any medical
+                            assistance they need.
+                        </li>
+                    </ul>
+                    <p><strong>VISITING HOURS </strong><br/></p>
+                    <table>
+                        <tr>
+                            <td>MORNING</td>
+                            <td>NOON</td>
+                            <td>EVENING</td>
+                        </tr>
+                        <tr>
+                            <td>6 AM to 7:00 AM </td>
+                            <td>1:30PM to 2:30 PM</td>
+                            <td>5 PM to 8 PM</td>
+                        </tr>
+                    </table>
+                    <p>
+                        One attendant shall accompany every admitted patient.
+                    </p>
+                    <p>
+                        Visitors are allowed only during notified visiting hours with visitor pass.
+                    </p>
+                    <p><br/><br />
+                        <strong>Laboratory</strong></p>
+                    <ul class="firstul">
+                        <li>About 2000 investigations (pathology/Bio-Chemistry/Micro-Biology) are conducted in the labs.</li>
+                        <li>The various samples are collected in Central Collection lab round the clock for testing and the reports are also issued</li>
+                        <li>The quality control of the various laboratory tests is also ensured and various automatic and semi-automatic analyzers are used in the laboratories.</li>
+                        <li>Reports are made available within the shortest possible time.</li>
+                        <li>Emergency lab. : Round the clock, all days.</li>
+                    </ul>
+                    <p><strong>Blood Banks</strong><br/></p>
+                    <p style="text-indent:4em">
+                        The hospital has a licensed, modern state of the art Blood Bank that functions 24 hours a day and provide facilities for blood donation, storage, issue of blood. Strict precautions are taken and testing is done to prevent any blood borne infection. Blood
+                        is issued on exchange basis and patient requiring blood should arrange healthy blood donor for exchange of blood
+                    </p>
+                    <p>
+                        <strong>Equipment and facilities Available</strong><br/></p>
+                    <p style="text-indent:4em">
+                        The hospitals have the support of Civil (R&amp;B), its own Electrical &amp; Mechanical Engineering wings for ensuring proper maintenance and working of its various equipment.
+                    </p>
+                    <p>
+                        <strong>Operation theatres</strong></p>
+                    <ul class="firstul">
+                        <li>
+                            The hospital has fully equipped modern operation theatres where all kinds of major and minor surgeries are performed using the latest techniques and technology.
+                        </li>
+                        <li>
+                            Routine surgeries are done as per list maintained by the respective department(s).
+                        </li>
+                        <li>
+                            Periodical servicing and maintenance of instruments and equipments are made by the Bio &#8211; Medical engineering department for hazard free operations on emergencies.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>Miscellaneous services</strong></p>
+                    <ul class="firstul">
+                        <li> Having fully mechanized kitchen from where diet of patients is prepared, fully mechanized laundry with modern equipment and gadgets.
+                        </li>
+                        <li> The Central Sterile Supply Department for providing sterilized supplies to various sections and operation theatres of the hospital is also available.
+                        </li>
+                        <li>The full-fledged engineering wing also available for running the various hospital services round the clock. The DG sets, AC plant, Incinerator, Fire Hydrant System on all the floors, Sewage Treatment Plant, Boilers, Manifold services,
+                            lifts, etc. are some of the important services under their control.</li>
+                        <li> An electric sub-station for uninterrupted power supply. The hospital is connected to stand by generators in case of electricity break down. Adequate water and toilet facilities are available. Separate canteen facilities for staff
+                            and the attendants of the patients are available.
+                        </li>
+                        <li> Adequate number of Wheel Chairs and stretchers are available on request at the main reception of the hospital for the facility of patients who are not in position to walk.</li>
+                        <li> Lifts are available for access to higher floors
+                        </li>
+                        <li> Ambulances are available for use, round the clock for transfer of patients to other hospitals
+                        </li>
+                        <li> Canteen for visitors and out patients is open round the clock.
+                        </li>
+                        <li> Pharmacy is located in the Hospital OP premise which is open 24 hrs. on all days.
+                        </li>
+                        <li> The facilities for public telephone booths are also provided
+                        </li>
+
+                    </ul>
+
+                    <p><strong>Peripheral centres</strong></p>
+                    <ul class="firstul">
+                        <li>
+                            The UHTC functions from 9 a.m. to 4 p.m.
+                        </li>
+                        <li>
+                            The RHTC OPD functions from 9 a.m. to 4 p.m. Emergency services are available round the clock .
+                        </li>
+                        <li>
+                            Basic laboratory and X-ray services, are available in the RHTC.
+                        </li>
+                        <li>
+                            Consultation, drugs and investigations are provided free of cost at these centres.
+                        </li>
+                        <li>
+                            Health education, house visits, ANC and under-five camps, School health, special camps such as Skin camp, ophthalmology camps, dental camps are conducted on a regular basis. Family planning services are available in these centres. Those requiring surgery
+                            or tertiary care are referred to the main hospital. Transport services are provided free of charge.
+                        </li>
+                        <li>
+                            Health inspectors provide water and sanitation education and services to the population served by these centres. Counselling and referral support are provided by the social workers from these centres.<br /> Medical students
+                            are provided community medicine orientation and training through these centres in addition to their regular academic training.
+                        </li>
+                    </ul>
+                    <p>
+                        <strong>Grievance Redressal /complaints</strong><br />
+                        <strong>Responsibility of users</strong></p>
+                    <ul class="firstul">
+                        <li>The success of this citizen charter depends upon the support, we will receive from our users.</li>
+                        <li>The OPDs, indoors and the emergencies of the hospital attend and admit any number of people.</li>
+                        <li>It is not possible to cater the individual needs of all the patients, so some of the patients always go unsatisfied. Please do not hesitate in conveying us the shortcomings of the hospitals.</li>
+                        <li>Help us to keep the hospitals and its surroundings neat and clean by using different coloured bins placed at various points in the hospital.</li>
+                        <li>The hospital is a no smoking zone, please do not smoke or chew pan or tobacco in the hospital and avoid spitting on the walls of the hospital. This hospital belongs to you.
+                            <ul class="secondul">
+                                <li>Please follow the rules and regulations of the hospital while inside the hospital campus.</li>
+                                <li>Please do not cause inconvenience to other patients by crowding or making noise unnecessarily.</li>
+                                <li>Please help us in keeping the hospital and its surroundings neat and clean.</li>
+                                <li>Please use the facilities of this hospital with care and do not damage/spoil hospital property.</li>
+                                <li>Do not indulge in any money transactions with touts and unauthorised persons.</li>
+                                <li>Please refrain from demanding undue favours from hospital staff and officials.</li>
+                                <li>Please provide feedback of the services by putting your constructive suggestions in the suggestion/complaint boxes or directly approaching the Medical Superintendent of the hospital.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p><strong>Grievance Redressal / complaints</strong></p>
+                    <ul class="firstul">
+                        <li>
+                            There will be occasions when you will not be satisfied by our services and please do not hesitate to register your complaint. It will help us to come to your expectation and serve you better.
+                        </li>
+                        <li>
+                            The letters are processed, the complaints are attended and feedback is given to the persons who have given their addresses. Grievances Redressal Committees are constituted by Dean ACS Medical College &amp; hospital with Medical Superintendent as chairman
+                            and representatives of various clinical specialities/ Matron etc. as members.
+                        </li>
+                        <li>
+                            The members maintain a log book and attend to referred complaints within period of one week with specific recommendations/suggestion and action report in particular case.
+                        </li>
+                    </ul>
+                    <table border="1">
+                        <tr>
+                            <th>S.NO</th>
+                            <th>NAME OF THE MEMBERS</th>
+                            <th>DESIGNATION</th>
+                            <th>FUNCTIONAL DESIGNATION</th>
+                        </tr>
+                        <tr>
+                            <td>01</td>
+                            <td>Dr. Pragna B. Dolia</td>
+                            <td>Dean</td>
+                            <td>Chairman</td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>Dr. Mubeen Taj</td>
+                            <td>Associate Professor <br/>Department of Psychiatry </td>
+                            <td>Coordinator</td>
+                        </tr>
+                        <tr>
+                            <td>03</td>
+                            <td>Dr. V. Palani</td>
+                            <td>Medical Superintendent</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>04</td>
+                            <td>Dr. M. Sasirekha</td>
+                            <td>Prof. &#038; Head,<br/>Department of Anatomy</td>
+                            <td>Member</td>
+                        </tr>
+                        <td>05</td>
+                        <td>Dr. H. Kalavathy Victor</td>
+                        <td>Prof. &#038; HoD of Microbiology</td>
+                        <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>06</td>
+                            <td>Dr. B. Kalaiselvi</td>
+                            <td>Prof. &#038; HoD of Pharmacology</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>07</td>
+                            <td>Dr. N. Raghu</td>
+                            <td>Prof. &#038; Head Department of General Medicine</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>08</td>
+                            <td>Dr. Dr. H. Gayathri </td>
+                            <td>Associate Professor </td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>09</td>
+                            <td>Mr. Malliga Arjuna Reddy</td>
+                            <td>Project Officer</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Mr. A. Ramachandran</td>
+                            <td>Administrative Officer</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Mr. S.P. Paramanandham</td>
+                            <td>Vigilance Officer</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Mrs. Rathinakumari</td>
+                            <td>Nursing Co-Ordinator</td>
+                            <td>Member</td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>Mr. Jesudhasan</td>
+                            <td>Physical Director</td>
+                            <td>Member</td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+</div>
+
+{% endblock content %}

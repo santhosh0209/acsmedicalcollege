@@ -1,0 +1,250 @@
+{% extends "college/base.html" %} {% block content %}
+
+<section class="inner res_intro">
+    <style>
+        .btn_web {
+            overflow: hidden;
+            min-width: 175px;
+            height: 54px;
+            border: 1px solid #bd943c;
+            font-family: 'Eurostile', sans-serif;
+            font-size: 14px;
+            line-height: 1;
+            letter-spacing: 0.05em;
+            color: #002e4b;
+            font-weight: 600;
+            background: #ffffff;
+            padding: 0 15px;
+            display: inline-block;
+            text-align: center;
+            line-height: 52px;
+            position: relative;
+            z-index: 0;
+            text-indent: 0;
+            -webkit-transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+            -moz-transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+            -o-transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+            -ms-transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+            transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+        }
+        
+        .btn_web:before {
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: -100%;
+            transform: translate3d(0, 0, 0);
+            -webkit-transform: translate3d(0, 0, 0);
+            -ms-transform: translate3d(0, 0, 0);
+            -moz-transform: translate3d(0, 0, 0);
+            -o-transform: translate3d(0, 0, 0);
+            background: #bd943c;
+            z-index: -1;
+            -webkit-transition: transform 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+            -moz-transition: transform 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+            -o-transition: transform 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+            -ms-transition: transform 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+            transition: transform 0.6s cubic-bezier(0.77, 0, 0.175, 1);
+        }
+        
+        .btn_web:hover {
+            color: #ffffff;
+        }
+        
+        .btn_web:hover:before {
+            transform: translate3d(100%, 0, 0);
+            -webkit-transform: translate3d(100%, 0, 0);
+            -ms-transform: translate3d(100%, 0, 0);
+            -moz-transform: translate3d(100%, 0, 0);
+            -o-transform: translate3d(100%, 0, 0);
+        }
+    </style>
+    <div class="container">
+        <h1 class="title_line">Facilities</h1>
+    </div>
+</section>
+<section class="nopadding res_course-wrap">
+
+
+    <div class="course-ug clearfix">
+        <div class="container">
+
+            <div class="img-contain col-md-6 col-xs-5 nopadding" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <img src="https://saec.ac.in/wp-content/uploads/2019/11/health.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="https://saec.ac.in/wp-content/uploads/2019/11/health.jpg 961w, https://saec.ac.in/wp-content/uploads/2019/11/health-300x225.jpg 300w, https://saec.ac.in/wp-content/uploads/2019/11/health-768x575.jpg 768w"
+                    sizes="(max-width: 961px) 100vw, 961px"> </div>
+            <div class="text-contain col-sm-6" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <div>
+                    <h2>laboratory</h2>
+                    <p>
+                    </p>
+                    <p>A well equipped central laboratory functioning round the clock offers various diagnostic services to provide rapid results which facilitates swift decision making for diagnosis.</p>
+                    <p></p>
+                    <a href="{% url 'college:cf_central_lab' %}" class="btn_web">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-pg clearfix">
+        <div class="container">
+
+            <div class="img-contain col-md-6 col-xs-5 nopadding" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <img src="/static/sample/college/FACILITIES/library.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="/static/sample/college/FACILITIES/library.jpg 961w" sizes="(max-width: 961px) 100vw, 961px">                </div>
+            <div class="text-contain col-sm-6" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <div>
+                    <h2>Library</h2>
+                    <p>
+                    </p>
+                    <p> A spacious and well furnished library houses various departmental text books on variety of subjects satisfying MCI norms. In addition to the above more number of national and international journals and periodicals are subscribed on
+                        regular basis for the benefit of students and faculties.</p>
+                    <p></p>
+                    <a href="{% url 'college:cf_library' %}" class="btn_web">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-ug clearfix">
+        <div class="container">
+
+            <div class="img-contain col-md-6 col-xs-5 nopadding" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <img src="/static/sample/college/FACILITIES/ground.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="/static/sample/college/FACILITIES/ground.jpg 768w" sizes="(max-width: 961px) 100vw, 961px">                </div>
+            <div class="text-contain col-sm-6" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <div>
+                    <h2>Infrastructure</h2>
+                    <p>
+                    </p>
+                    <p>Our excellent infrastructure provides a very conductive atmosphere for effective learning to each and every student. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illo eaque sapiente quibusdam quidem iure deleniti
+                        eum, dolor, fugit voluptatum ducimus pariatur fugiat eius rerum molestias, consequuntur magni consequatur. Quod!.</p>
+                    <p></p>
+                    <a href="{% url 'college:cf_infrastructure' %}" class="btn_web">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-pg clearfix">
+        <div class="container">
+
+            <div class="img-contain col-md-6 col-xs-5 nopadding" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <img src="https://saec.ac.in/wp-content/uploads/2019/11/hostal.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="https://saec.ac.in/wp-content/uploads/2019/11/hostal.jpg 961w, https://saec.ac.in/wp-content/uploads/2019/11/hostal-300x225.jpg 300w, https://saec.ac.in/wp-content/uploads/2019/11/hostal-768x575.jpg 768w"
+                    sizes="(max-width: 961px) 100vw, 961px"> </div>
+            <div class="text-contain col-sm-6" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <div>
+                    <h2>Internet Section</h2>
+                    <p>
+                    </p>
+                    <p>
+
+                        Our college has a dedicated internet lab working 24 hours a day, 7 days a week. We give free internet access to our students. We have 255 Mbps 1:1 dedicated leased line internet connectivity (155 Mbps from Reliance and 100 Mbps from Vodafone)
+
+                    </p>
+
+                    <a href="{% url 'college:cf_internet_sec' %}" class="btn_web">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-ug clearfix">
+        <div class="container">
+
+            <div class="img-contain col-md-6 col-xs-5 nopadding" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <img src="/static/sample/college/FACILITIES/SEMINAR.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="/static/sample/college/FACILITIES/SEMINAR.jpg 768w" sizes="(max-width: 961px) 100vw, 961px">                </div>
+            <div class="text-contain col-sm-6" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <div>
+                    <h2>Seminar Hall</h2>
+                    <p>
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eum ex omnis iusto, debitis sit officia, sapiente quam molestias, ad cum voluptatum beatae itaque quo id nulla natus odit! Quasi..</p>
+                    <p></p>
+                    <a href="{% url 'college:cf_seminar' %}" class="btn_web">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-pg clearfix">
+        <div class="container">
+
+            <div class="img-contain col-md-6 col-xs-5 nopadding" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <img src="https://saec.ac.in/wp-content/uploads/2019/11/tansport.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="https://saec.ac.in/wp-content/uploads/2019/11/tansport.jpg 961w, https://saec.ac.in/wp-content/uploads/2019/11/tansport-300x225.jpg 300w, https://saec.ac.in/wp-content/uploads/2019/11/tansport-768x575.jpg 768w"
+                    sizes="(max-width: 961px) 100vw, 961px"> </div>
+            <div class="text-contain col-sm-6" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <div>
+                    <h2>Canteen</h2>
+                    <p>
+                    </p>
+                    <p> The college is equipped with a fully functional vegetarian and non - vegetarian canteen to serve hygienically prepared food to the staff and students. A subsidized mess is also operative in the campus. A separate mess for boys and
+                        girls has been provided.</p>
+                    <p></p>
+                    <a href="{% url 'college:cf_canteen' %}" class="btn_web">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-ug clearfix">
+        <div class="container">
+
+            <div class="img-contain col-md-6 col-xs-5 nopadding" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <img src="/static/sample/college/FACILITIES/hostel.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="/static/sample/college/FACILITIES/BOY HOSTEL.jpg 961w" sizes="(max-width: 961px) 100vw, 961px">                </div>
+            <div class="text-contain col-sm-6" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <div>
+                    <h2>Hostel</h2>
+                    <p>
+                    </p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, veritatis enim. Harum odit quidem libero eius, rerum ab ipsa amet esse voluptate laboriosam quibusdam iusto ipsam odio impedit quasi magni!.</p>
+                    <p></p>
+                    <a href="{% url 'college:cf_hostel' %}" class="btn_web">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-pg clearfix">
+        <div class="container">
+
+            <div class="img-contain col-md-6 col-xs-5 nopadding" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <img src="/static/sample/college/FACILITIES/TRANSPORT.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="/static/sample/college/FACILITIES/TRANSPORT.jpg 768w" sizes="(max-width: 961px) 100vw, 961px">                </div>
+            <div class="text-contain col-sm-6" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <div>
+                    <h2>Transport</h2>
+                    <p>
+                    </p>
+                    <p> A full fledged Transport department functions in the college with buses to provide transport facility to students and staff from various places. This service is offered ensuring a hassle-free and safe transportation.
+                    </p>
+                    <p></p>
+                    <a href="{% url 'college:cf_transport' %}" class="btn_web">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="course-ug clearfix">
+        <div class="container">
+
+            <div class="img-contain col-md-6 col-xs-5 nopadding" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <img src="https://saec.ac.in/wp-content/uploads/2019/11/cafteria.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="" loading="lazy" srcset="https://saec.ac.in/wp-content/uploads/2019/11/cafteria.jpg 961w, https://saec.ac.in/wp-content/uploads/2019/11/cafteria-300x225.jpg 300w, https://saec.ac.in/wp-content/uploads/2019/11/cafteria-768x575.jpg 768w"
+                    sizes="(max-width: 961px) 100vw, 961px"> </div>
+            <div class="text-contain col-sm-6" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                <div>
+                    <h2>Anti Ragging</h2>
+                    <p>
+                    </p>
+                    <p>A full fledged Transport department functions in the college with buses to provide transport facility to students and staff from various places. This service is offered ensuring a hassle-free and safe transportation.</p>
+                    <p></p>
+                    <a href="{% url 'college:cf_anti' %}" class="btn_web">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    </div>
+</section>
+
+
+{% endblock content %}

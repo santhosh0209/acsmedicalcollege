@@ -1,0 +1,61 @@
+{% extends "base.html" %} {% block content %}
+<section class="contact_sec clearfix">
+    <div class="container">
+        <h3 class="inner_sub_hd">Get in touch with us</h3>
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="contact_form contact_form-wrap">
+                    <div role="form" class="wpcf7" id="wpcf7-f1580-o1" lang="en-US" dir="ltr">
+                        <div class="screen-reader-response"></div>
+                        <form action="/contact-us/#wpcf7-f1580-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                            <div style="display: none;">
+                                <input type="hidden" name="_wpcf7" value="1580" />
+                                <input type="hidden" name="_wpcf7_version" value="5.1.4" />
+                                <input type="hidden" name="_wpcf7_locale" value="en_US" />
+                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1580-o1" />
+                                <input type="hidden" name="_wpcf7_container_post" value="0" />
+                            </div>
+                            <p><label> Name<br />
+   <span class="wpcf7-form-control-wrap name-field"><input type="text" name="name-field" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> </label></p>
+                            <p><label> Phone<br />
+<span class="wpcf7-form-control-wrap phone"><input type="tel" name="phone" value="" size="40" maxlength="12" minlength="6" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel" aria-required="true" aria-invalid="false" /></span> </label></p>
+                            <p><label> Email<br />
+<span class="wpcf7-form-control-wrap email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span> </label></p>
+                            <p><label> Message<br />
+  <span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </label></p>
+                            <p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit" /></p>
+                            <div class="wpcf7-response-output wpcf7-display-none"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-5">
+                <div>
+                    <span>Address</span>
+                    <p>S. A. Engineering College,</p>
+                    <p>Poonamalle High Road,</p>
+                    <p>Velappanchavadi,</p>
+                    <p>Chennai &#8211; 600 077.</p>
+                </div>
+
+                <div>
+                    <span>Phone</span>
+                    <p><a href="tel:044 6457 0316"> 044 6457 0316</a> </p>
+                </div>
+
+                <div>
+                    <span>Email</span>
+                    <p><a href="mailto:acsgh08@gmail.com">acsgh08@gmail.com</a> </p>
+                </div>
+
+                <div>
+                    <span>Fax</span>
+                    <p>044 6457 0316</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
